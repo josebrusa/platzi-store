@@ -4,7 +4,7 @@ cache:
     - node_modules
     - ~/.npm
 node_js:
-  - '14'
+  - '16'
 git:
   depth: 3
 script:
@@ -26,4 +26,3 @@ deploy:
   commit_message: 'Deploy del proyecto'
   on:
     branch: master
-    
